@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="15.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CurrencyService.Common\CurrencyService.Common.csproj" />
+    <ProjectReference Include="..\CurrencyService.Dto\CurrencyService.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
